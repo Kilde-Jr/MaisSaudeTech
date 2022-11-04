@@ -12,6 +12,25 @@ ul{
     list-style: none;
 }
 
+.secao1{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.secao1, img{
+    max-width: 50%;
+    margin-bottom: 90px;
+}
+
+.secao2{
+    margin: 10%;
+    text-align: center;
+}
+
+.secao3{
+    margin: 10%;
+    text-align: center;
+}
+
 .secao4, img{
    display: flex;
 }
@@ -20,3 +39,11 @@ h2{
     text-align: center;
 }
 
+.texto{
+  margin-left: 30%;
+}
+.blocos{
+   display: flex;
+   margin-left: 50%;
+}
+ 
