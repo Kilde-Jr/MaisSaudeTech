@@ -1,7 +1,22 @@
-.secao4, img{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 300px;
-    flex: 1 1 3px;
-    margin: 10px;
+header, img{
+    max-width: 100px;
 }
+header{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.secao4, img{
+   display: flex;
+}
+
+h2{
+    text-align: center;
+}
+
