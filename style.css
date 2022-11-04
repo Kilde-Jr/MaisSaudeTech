@@ -1,0 +1,7 @@
+.secao4, img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    flex: 1 1 3px;
+    margin: 10px;
+}
