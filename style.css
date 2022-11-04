@@ -1,7 +1,11 @@
 .secao4, img{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 300px;
+    display: flex;   
     flex: 1 1 3px;
     margin: 10px;
+}
+h2{text-align:center;}
+.h2-1{
+    display:flex;
+
+    
 }
