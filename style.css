@@ -1,49 +1,57 @@
-header, img{
-    max-width: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
 }
-header{
+
+.base {
     display: flex;
+    align-content: space-between;
 }
-a{
-    text-decoration: none;
-}
-
-ul{
-    list-style: none;
-}
-
-.secao1{
-    margin-bottom: 100px;
+/*div: Lado Verde*/
+#LadoVerde {
+    display: flex;
+    flex-direction: column;
+    background-color: #17D4B3;
+    max-height: 100vh;
+    max-width: 25vw;
+    height: 100vw;
+    width: 25vw;
     text-align: center;
-}
-.secao1, img{
-    max-width: 50%;
-    margin-bottom: 90px;
+    
 }
 
-.secao2{
-    margin: 10%;
+/*imagem > botão voltar*/
+#BotãoVoltar {
+    height: 4vh;
+    padding-right: 14vw;
+    padding-top: 3vh;
+}
+
+/*imagem > logo*/
+#Logo {
+    width: 13vw;
+    align-self: center;
+    padding-top: 15vh;
+}
+
+/*div: Interativo*/
+#Interativo {
+    background-color: #fff;
+    width: 75vw;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;      
+    display: block;
+    margin: 250px;
+    
+}
+    
+.icon{
+    margin: 11px;
+    padding: 5px;
+   
 }
 
-.secao3{
-    margin: 10%;
-    text-align: center;
-}
-
-.secao4, img{
-   display: flex;
-}
-
-h2{
-    text-align: center;
-}
-
-.texto{
-  margin-left: 30%;
-}
-.blocos{
-   display: flex;
-   margin-left: 50%;
-}
- 
