@@ -37,21 +37,42 @@
 }
 
 /*div: Interativo*/
-#Interativo {
-    background-color: #fff;
-    width: 75vw;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 300px;      
-    display: block;
-    margin: 250px;
+#Interativo { 
     
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 71px;
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
     
 .icon{
-    margin: 11px;
-    padding: 5px;
+    margin: 15px;
+    padding: 10px;
    
+}
+
+a{
+    color: rgba(23, 212, 179, 1);
+}
+
+h1{
+    color: rgba(23, 212, 179, 1);
+    font-size: 38px;
+}
+
+.entrar{
+    color: aliceblue;
+    background-color: #00608E;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 6px 16px;
+  width: 50%;
+
 }
 
